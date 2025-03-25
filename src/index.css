@@ -1,0 +1,286 @@
+@import "tailwindcss";
+
+h1{
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+
+h3{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+
+
+@keyframes marque {
+    0% {
+      transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-100%)
+    }
+    100%{
+        transform: translateX(0%)
+    }
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-100%)
+    }
+    100%{
+        transform: translateX(0%)
+    }
+  }
+  @keyframes marqueee {
+    0% {
+      transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-100%)
+    }
+    100%{
+        transform: translateX(0%)
+    }
+  }
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+@keyframes raafamove {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -300px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes raafamove2 {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -70px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 70px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes raafamove3 {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -70px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 70px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes raafamove33 {
+    0% {
+      margin-left: 100px;
+    }
+    25%{
+      margin-left: -50px;
+    }
+    50%{
+        margin-left: 100px;
+    }
+    75%{
+        margin-left: 200px;
+    }
+    100%{
+        margin-left: 100px;
+    }
+  }
+  @keyframes cloudmove {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -300px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes cloudmove2 {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -1000px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 1000px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes cloudmove2sm {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -300px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 300px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes cloudmove3sm {
+    0% {
+      margin-left: 0px;
+    }
+    25%{
+      margin-left: -200px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+    75%{
+        margin-left: 200px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+  }
+  @keyframes anim {
+    0% {
+      width: 200px ;
+      height: 200px ;
+    }
+    50%{
+      width: 300px ;
+      height: 300px;
+    }
+    100%{
+      width: 200px ;
+      height: 200px ;
+    }
+  }
+
+  @keyframes docMoveLeft {
+    0% {
+      transform: translateX(0px);
+    }
+    25%{
+      transform:translateX(-400px)
+    }
+    50%{
+      transform: translateX(0px);
+    }
+    75%{
+      transform: translateX(400px)
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  @keyframes docMoveLeftSmall {
+    0% {
+      transform: translateX(0px);
+    }
+    25%{
+      transform:translateX(-100px)
+    }
+    50%{
+      transform: translateX(0px);
+    }
+    75%{
+      transform: translateX(100px)
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  @keyframes docMoveRight {
+    0% {
+      transform: translateX(0px);
+    }
+    25%{
+      transform:translateX(400px)
+    }
+    50%{
+      transform: translateX(0px);
+    }
+    75%{
+      transform: translateX(-400px)
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  @keyframes docMoveRightSmall {
+    0% {
+      transform: translateX(0px);
+    }
+    25%{
+      transform:translateX(100px)
+    }
+    50%{
+      transform: translateX(0px);
+    }
+    75%{
+      transform: translateX(-100px)
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+::-webkit-scrollbar{
+  width: .8rem;
+  background-color : #60A5FA;
+}
+::-webkit-scrollbar-thumb{
+  width: .8rem;
+  background-color : #2563EB;
+}
+::-webkit-scrollbar-thumb:hover{
+  width: .8rem;
+  background-color : #1D4ED8; 
+}
