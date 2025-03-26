@@ -6,6 +6,7 @@ import potoRaapa from './img/poto_rapacool1_rb.png'
 import cloudMove from './img/clouds.png'
 import { useState, useEffect } from "react";
 import { TypeAnimation } from "react-type-animation"
+import ScrollReveal from 'scrollreveal';
 
 export default function Home (){
     const [scrollX, setScrollX] = useState(0);
@@ -52,14 +53,14 @@ export default function Home (){
                     </div>
                 <div className='reveal absolute flex z-[999999999999] w-[200px] h-[500px] bg-cover bg-center animate-[raafamove2_4s_linear_infinite] xl:animate-[raafamove_8s_linear_infinite] ' style={{ backgroundImage: `url(${potoRaapa})`,  transform: `translateX(${scrollX}px)` }} ></div>
                 </div>
-                <div class=" z-[999999] w-full overflow-hidden flex bottom-0 absolute whitespace-nowrap bg-gray-200 py-4">
-                    <div class="flex w-max space-x-0 bottom-0 animate-[marque_20s_Linear_infinite]">
+                <div className=" z-[999999] w-full overflow-hidden flex bottom-0 absolute whitespace-nowrap bg-gray-200 py-4">
+                    <div className="flex w-max space-x-0 bottom-0 animate-[marque_20s_Linear_infinite]">
                         <p className='text-2xl  md:text-6xl uppercase mr-[50px] ' >🚀 Ini dibuat oleh My Princess Darling Honey Bunnny Sweety Love You🚀</p>
                     </div>
-                    <div class="flex w-max space-x-0 bottom-0 animate-[marquee_20s_Linear_infinite]">
+                    <div className="flex w-max space-x-0 bottom-0 animate-[marquee_20s_Linear_infinite]">
                         <p className='text-2xl  md:text-6xl uppercase mr-[50px] ' >🚀 Ini dibuat oleh My Princess Darling Honey Bunnny Sweety Love You🚀</p>
                     </div>
-                    <div class="flex w-max space-x-0 bottom-0 animate-[marqueee_20s_Linear_infinite]">
+                    <div className="flex w-max space-x-0 bottom-0 animate-[marqueee_20s_Linear_infinite]">
                         <p className='text-2xl  md:text-6xl uppercase mr-[50px] ' >🚀 Ini dibuat oleh My Princess Darling Honey Bunnny Sweety Love You🚀</p>
                     </div>
                 </div>

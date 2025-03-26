@@ -1,6 +1,7 @@
 import '../index.css'
-import React, {useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import ScrollReveal from 'scrollreveal';
 
 export default function Navbar () {
     const [nav, setNav] = useState(false)

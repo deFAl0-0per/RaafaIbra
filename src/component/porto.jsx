@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {useEffect, useRef } from 'react';
 import potoProject1 from '../component/img/ssvideotron.png';
 import potoProject2 from '../component/img/ssmycatatanbarang.png';
 import potoProject3 from '../component/img/sscrudfiberapi.png';
@@ -19,18 +19,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 import '../index.css'
+import ScrollReveal from 'scrollreveal';
 
 export default function Porto() {
     const swiperRef = useRef(null);
 
     return (
-        <div id='port' className="w-full h-[3500px] xl:h-[3800px] flex flex-col items-center justify-center pb-[100px] overflow-hidden bg-blue-900 pt-[100px] z-[999]">
+        <div id='port' className="w-full h-[4200px] xl:h-[4000px] flex flex-col items-center justify-center pb-[100px] overflow-hidden bg-blue-900 pt-[100px] z-[999]">
             <div className='w-full mb-[50px] m-auto flex flex-col justify-center items-center ' >
                 <h1 className='text-5xl xl:text-8xl text-white font-black mb-[10px] drop-shadow-[3px_3px_10px_black] ' >My Portfolios</h1>
                 <span className='font-black text-2xl xl:text-3xl text-white drop-shadow-[3px_3px_5px_black] ' >Let's see my projects !!</span>
             </div>
             <div className='block w-full justify-center items-center' >
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-start xl:items-center items-start overflow-hidden ' >  
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-start xl:items-center items-start overflow-hidden ' >  
                     <img src={potoProject1} alt="" className=' w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-start' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Videotron <br />(Non Responsive Web)</h1>
@@ -50,13 +51,13 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject2} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Catatan Barang <br />(Responsive Web)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
                         <div className='xl:mt-[50px] w-full flex justify-end items-start mt-[0px] m-auto ' >
-                            <a href="https://daftarlist-raafa.vercel.app/" blank>
+                            <a href="https://daftarlist-raafa.vercel.app/">
                                 <div style={{backgroundImage: `url(${logoChrome})`}} className='bg-cover bg-center xl:w-[50px] w-[40px] xl:h-[50px] h-[40px] flex justify-center items-center rounded-2xl ' ></div>
                             </a>
                             <a href="https://github.com/deFAl0-0per/daftarlist-raafa.git">
@@ -73,7 +74,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject3} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> API Postman CRUD Fiber Go </h1>
@@ -93,7 +94,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject3_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> CRUD with PHP Native </h1>
@@ -113,13 +114,13 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject4} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Tic Tac Toe Game<br />(Responsive Web)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
                         <div className='xl:mt-[50px] w-full flex justify-end items-start mt-[0px] m-auto ' >
-                            <a href="https://raafa-tic-tac-toe.vercel.app/" blank>
+                            <a href="https://raafa-tic-tac-toe.vercel.app/">
                                 <div style={{backgroundImage: `url(${logoChrome})`}} className='bg-cover bg-center xl:w-[50px] w-[40px] xl:h-[50px] h-[40px] flex justify-center items-center rounded-2xl ' ></div>
                             </a>
                             <a href="https://github.com/deFAl0-0per/my-tic-tac-toe.git">
@@ -136,13 +137,13 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject4_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Flower Animation <br />(Responsive Web)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
                         <div className='xl:mt-[50px] w-full flex justify-end items-start mt-[0px] m-auto ' >
-                            <a href="https://flower-for-clara.vercel.app/" blank>
+                            <a href="https://flower-for-clara.vercel.app/">
                                 <div style={{backgroundImage: `url(${logoChrome})`}} className='bg-cover bg-center xl:w-[50px] w-[40px] xl:h-[50px] h-[40px] flex justify-center items-center rounded-2xl ' ></div>
                             </a>
                             <a href="https://github.com/deFAl0-0per/flower-for-clara.git">
@@ -159,7 +160,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject5} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >UI/UX Design E-Koperasi  <br />(Non Responsive Web)</h1>
@@ -181,7 +182,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start xl:text-center text-start overflow-hidden ' >
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start xl:text-center text-start overflow-hidden ' >
                     <img src={potoProject6} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>
@@ -201,8 +202,8 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[400px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                    <img src={potoProject7} alt="" className='w-[500px] xl:w-[400px] h-[250px] xl:h-[280px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
+                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] xl:h-[400px] h-[500px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                    <img src={potoProject7} alt="" className='w-[500px] xl:w-[400px] h-[280px] xl:h-[280px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
