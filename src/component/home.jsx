@@ -36,7 +36,7 @@ export default function Home (){
   }, []);
     return (
         <>
-            <div id='home' className="w-full h-[1000px] xl:h-[700px] relative z-[-999999] bg-blue-400 xl:flex flex-cols justify-center" >
+            <div id='home' className="w-full h-[1000px] xl:h-[500px] relative z-[-999999] bg-blue-400 xl:flex flex-cols justify-center" >
                 <div className='border-solid relative overflow-hidden pt-[200px] xl:pt-[50px] border-black bor m-[0px] xl:w-[60%] w-[100%] flex  justify-center items-center  '  >
                     <div className='reveal pl-[20px] pr-[20px]' >
                         <h1 className='drop-shadow-[2px_2px_5px_black] xl:text-start text-center text-6xl font-black bg-gradient-to-r from-[#020024] via-[#00007c] to-[#00d4ff] text-transparent bg-clip-text font-oswald'style={{ fontFamily: "Inter, sans-serif",  transform: `translateX(-${scrollX}px)` }} >Hi, I'm Raafa</h1>
@@ -56,7 +56,7 @@ export default function Home (){
                     <div className='w-[200px] h-[200px] animate-[cloudmove_15s_linear_infinite] ml-[-500px] mt-[-350px] z-[-99999] absolute bg-cover bg-center ' style={{ backgroundImage: `url(${cloudMove})`, transform: `translateX(-${scrollX}px)` }} ></div>
                 </div>
                 {/* //////////////batassssssssss kanan kiri///////////////// */}
-                <div className='border-solid overflow-hidden box-border pr-[0px] pt-[50px] border-black bor m-[0px] w-full xl:w-[70%] relative flex justify-center items-center mt-[50px] z-[-9999]'>
+                <div className='border-solid overflow-hidden box-border pr-[0px] pt-[50px] border-black bor m-[0px] w-full xl:w-[70%] relative flex justify-center items-center mt-[0px] z-[-9999]'>
                     <div className='reveal xl:w-[700px] md:w-[500px] w-[400px] bg-cover bg-center animate-[spin_13s_linear_infinite] xl:h-[700px] md:h-[500px] h-[400px] rounded-full bg-blue-600 flex justify-center items-center shadow-[0px_0px_20px_10px_rgba(0,0,0,0.25)]'
                     style={{ backgroundImage: `url(${bgCircleBlue600})`, transform: `translateX(${scrollX}px)` }}  >                        
                         <div className='xl:w-[500px] md:w-[300px] w-[200px] bg-cover bg-center animate-[spin_13s_linear_infinite] xl:h-[500px] md:h-[300px] h-[200px] rounded-full bg-blue-300 flex justify-center items-center shadow-[0px_0px_20px_10px_rgba(0,0,0,0.25)] '
