@@ -47,8 +47,8 @@ export default function Navbar () {
                     </div>
 
             </div>
-            <div className='bg-black w-full h-[80px] z-[999999999] fixed mx-aut  flex justify-center items-center' >
-                <h1 className="reveal flex text-center animate-pulse text-5xl font-bold bg-gradient-to-r from-[#1900bd] via-[#0000ff] to-[#00d4ff] text-transparent bg-clip-text m-auto fixed " >Hello</h1>
+            <div className='bg-black w-full h-[80px] z-[999999999] fixed mx-aut  flex justify-center items-center overflow-hidden' >
+                <h1 className=" flex text-center animate-pulse text-5xl font-bold bg-gradient-to-r from-[#1900bd] via-[#0000ff] to-[#00d4ff] text-transparent bg-clip-text m-auto fixed " >Hello</h1>
             </div>
         </>
     )
