@@ -41,7 +41,7 @@ export default function Home (){
                     <div className='reveal pl-[20px] pr-[20px]' >
                         <h1 className='drop-shadow-[2px_2px_5px_black] xl:text-start text-center text-6xl font-black bg-gradient-to-r from-[#020024] via-[#00007c] to-[#00d4ff] text-transparent bg-clip-text font-oswald'style={{ fontFamily: "Inter, sans-serif",  transform: `translateX(-${scrollX}px)` }} >Hi, I'm Raafa</h1>
                         <div className=' xl:text-start text-center' style={{ transform: `translateX(-${scrollX}px)` }} >
-                            <TypeAnimation className=' text-[30px] xl:text-3xl font-medium' sequence={[
+                            <TypeAnimation className=' text-[15px] xl:text-3xl font-medium' sequence={[
                                 "I am a Front-end Web Developer",
                                 1000,
                                 "I am a Back-end Web Developer",
