@@ -37,11 +37,11 @@ export default function Home (){
     return (
         <>
             <div id='home' className="w-full h-[1000px] xl:h-[700px] relative z-[-999999] bg-blue-400 xl:flex flex-cols justify-center" >
-                <div className='border-solid relative overflow-y-hidden pt-[200px] xl:pt-[50px] border-black bor m-[0px] xl:w-[60%] w-[100%] flex  justify-center items-center  '  >
+                <div className='border-solid relative overflow-hidden pt-[200px] xl:pt-[50px] border-black bor m-[0px] xl:w-[60%] w-[100%] flex  justify-center items-center  '  >
                     <div className='reveal pl-[20px] pr-[20px]' >
                         <h1 className='drop-shadow-[2px_2px_5px_black] xl:text-start text-center text-6xl font-black bg-gradient-to-r from-[#020024] via-[#00007c] to-[#00d4ff] text-transparent bg-clip-text font-oswald'style={{ fontFamily: "Inter, sans-serif",  transform: `translateX(-${scrollX}px)` }} >Hi, I'm Raafa</h1>
                         <div className=' xl:text-start text-center' style={{ transform: `translateX(-${scrollX}px)` }} >
-                            <TypeAnimation className=' text-2xl xl:text-3xl font-medium' sequence={[
+                            <TypeAnimation className=' text-[30px] xl:text-3xl font-medium' sequence={[
                                 "I am a Front-end Web Developer",
                                 1000,
                                 "I am a Back-end Web Developer",
