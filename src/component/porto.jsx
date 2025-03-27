@@ -206,7 +206,7 @@ export default function Porto() {
                     <div style={{backgroundImage: `url(${potoProject6})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject6} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
-                        <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Poster (Figma) <br />(Non Responsive Web)</h1>
+                        <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Poster <br /> (Figma)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
                         <div className='xl:mt-[50px] w-full flex justify-end items-start mt-[0px] m-auto ' >
                             <a href="https://drive.google.com/drive/folders/1qHvM5u9f1qm55X1tKWXSFLpgAfOxLT5G?usp=sharing">
@@ -227,7 +227,7 @@ export default function Porto() {
                     <div style={{backgroundImage: `url(${potoProject7})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject7} alt="" className='w-[500px] xl:w-[400px] h-[280px] xl:h-[280px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
-                        <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>
+                        <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo <br/> (Figma)</h1>
                         <h3 className='xl:mt-[20px] mt-[0px] text-xl xl:text-2xl text-center m-auto ml-[20px] xl:ml-[0px]' >2024</h3>
                         <div className='xl:mt-[50px] w-full flex justify-end items-start mt-[0px] m-auto ' >
                             <a href="https://drive.google.com/drive/folders/1eiwJVel7Pzv1W60_3t6oS_VYPDHSJb2E?usp=sharing">
