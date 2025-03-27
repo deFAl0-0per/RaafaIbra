@@ -40,7 +40,7 @@ export default function Footer () {
                                 </a>
                             </div>
                         </div>
-                        <div className='reveal flex flex-col bg-transparant w-full m-auto xl:ml-[50px] xl:mr-[50px] mr-[0px] ' >
+                        <div className='reveal flex flex-col justify-center items-center bg-transparent w-full m-auto xl:ml-[50px] xl:mr-[50px] mr-[0px] ' >
                             <div className='flex flex-row justify-center items-center w-full shadow-[-5px_5px_20px]' >
                                 <div style={{backgroundImage: `url(${potoPortGeneral1})`}} className=' w-[200px] h-[200px] bg-cover bg-center ' ></div>
                                 <div style={{backgroundImage: `url(${potoPortGeneral2})`}} className=' w-[200px] h-[200px] bg-cover bg-center ' ></div>
