@@ -1,8 +1,8 @@
 import React, {useEffect, useRef } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import potoSkill1 from '../component/img/logo html.png';
-import potoSkill2 from '../component/img/tailwindcss.png';
-import potoSkill3 from '../component/img/js.png';
+import potoSkill1 from './img/logo html.png';
+import potoSkill2 from './img/tailwindcss.png';
+import potoSkill3 from './img/js.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -10,24 +10,37 @@ import 'swiper/css/effect-coverflow';
 import { Navigation, EffectCoverflow } from 'swiper/modules';
 import '../index.css'
 import { TypeAnimation } from 'react-type-animation'
-import potoSkill4 from '../component/img/science (1).png'
-import potoSkill5 from '../component/img/fiber_logo.png'
-import potoSkill6 from '../component/img/php.png'
-import potoSkill7 from '../component/img/graphic-designer.png'
-import potoSkill8 from '../component/img/drawing.png'
-import potoSkill9 from '../component/img/conference.png'
-import potoSkill10 from '../component/img/chat.png'
-import cloudMove from '../component/img/clouds.png'
-import potoRapa from '../component/img/poto_raapacool-rb.png'
+import potoSkill4 from './img/science (1).png'
+import potoSkill5 from './img/fiber_logo.png'
+import potoSkill6 from './img/php.png'
+import potoSkill7 from './img/graphic-designer.png'
+import potoSkill8 from './img/drawing.png'
+import potoSkill9 from './img/conference.png'
+import potoSkill10 from './img/chat.png'
+import cloudMove from './img/clouds.png'
+import potoRapa from './img/poto_raapacool-rb.png'
 import ScrollReveal from 'scrollreveal';
 
 export default function Skills() {
+    useEffect(() => {
+        const sr = ScrollReveal({
+            distance: '50px',
+            duration: 800,
+            easing: 'ease-in-out',
+            opacity: 0,
+            scale: 0.85,
+            interval: 200, // Interval antar elemen yang di-animasi
+        })
+        sr.reveal('.reveal')
+
+        return () => {sr.destroy()};    
+      });
     const swiperRef = useRef(null);
 
     return (
         <>
         
-            <div id='skills' className="w-full h-[1100px] flex flex-col items-center overflow-hidden bg-blue-900 pt-[100px] z-[999]">
+            <div id='skills' className="w-full h-[900px] flex flex-col items-center overflow-hidden bg-blue-900 pt-[100px] z-[999]">
                 <div className='xl:w-[200px] w-[100px] xl:h-[200px] h-[100px]  animate-[cloudmove2sm_5s_linear_infinite] xl:animate-[cloudmove2_15s_linear_infinite] ml-[0px] mt-[-50px] z-[99999] absolute bg-cover bg-center ' style={{ backgroundImage: `url(${cloudMove})`, transform: `translateX(-${scrollX}px)` }} ></div>
                 <div className='xl:w-[300px] w-[150px] xl:h-[300px] h-[150px]  animate-[cloudmove3sm_5s_linear_infinite] xl:animate-[cloudmove2_20s_linear_infinite] ml-[0px] xl:mt-[600px] mt-[700px]  z-[99999999] absolute bg-cover bg-center ' style={{ backgroundImage: `url(${cloudMove})`, transform: `translateX(-${scrollX}px)` }} ></div>
                 <div>
@@ -41,7 +54,7 @@ export default function Skills() {
                                     2000,
                                 ]} wrapper='span' speed={30} repeat={Infinity} />
                 </div>
-                <div className="shadow-[5px_5px_15px] w-[90%] xl:w-[90%] h-[700px] xl:h-[500px] xl:pt-[80px] inset-shadow-sm inset-shadow-black-500 bg-blue-300 flex items-center overflow-hidden relative">
+                <div className="reveal shadow-[5px_5px_15px] w-[90%] xl:w-[90%] h-[700px] xl:h-[500px] xl:pt-[80px] inset-shadow-sm inset-shadow-black-500 bg-blue-300 flex items-center overflow-hidden relative">
                     <div className='absolute flex ' >
                         <img src={potoRapa} alt="gambar rapa" className='w-[100px] xl:w-[200px] ml-[50px] mt-[600px] xl:mt-[0px] ' />
                     </div>
@@ -70,7 +83,7 @@ export default function Skills() {
                         <SwiperSlide className="flex pt-[0px] mb-[0px] xl:mb-[120px] items-center">
                             <img className='mb-[25px] w-[200px] xl:w-[200px] h-[200px] xl:h-[200px] m-auto drop-shadow-[0px_0_5px_5px_rgba(0,0,0,0.25)]' src={potoSkill1} alt="" />
                             <div className='relative w-[80%] h-[80px] xl:h-[50px] block justify-center overflow-hidden p-[5px] bg-white mb-[0px] rounded-2xl m-auto' >
-                                <div className='bg-emerald-500 h-[100%] z-[-999999] flex text-start justify-start pl-[5px] items-center  w-[80%]  rounded-tl-xl rounded-bl-xl ' >
+                                <div className='bg-emerald-500 h-[100%] z-[-999999] flex text-start justify-start pl-[10px] items-center  w-[80%]  rounded-tl-xl rounded-bl-xl ' >
                                     <h1 className='z-[999999] flex m-auto text-center absolute text-4xl xl:text-xl font-bold '  >80%</h1>
                                 </div>
                             </div>
@@ -155,7 +168,7 @@ export default function Skills() {
                         <FaArrowRight className="text-blue-600 text-xl" />
                     </button>
                 </div>
-                <div className=' shadow-[5px_5px_15px] bg-white w-[90%] xl:w-[90%] h-[80px] xl:h-[100px] flex justify-center items-center rounded-bl-2xl rounded-br-2xl z-[9999999] ' >
+                <div className='reveal shadow-[5px_5px_15px] bg-white w-[90%] xl:w-[90%] h-[80px] xl:h-[100px] flex justify-center items-center rounded-bl-2xl rounded-br-2xl z-[9999999] ' >
                 </div>
             </div>
         </>

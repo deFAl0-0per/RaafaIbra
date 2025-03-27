@@ -9,6 +9,20 @@ import { TypeAnimation } from "react-type-animation"
 import ScrollReveal from 'scrollreveal';
 
 export default function Home (){
+    useEffect(() => {
+        const sr = ScrollReveal({
+             distance: '50px',
+             duration: 800,
+             easing: 'ease-in-out',
+             opacity: 0,
+             scale: 0.85,
+             interval: 200, // Interval antar elemen yang di-animasi
+         })
+         sr.reveal('.reveal')
+
+         return () => {sr.destroy()};
+         }, []);
+
     const [scrollX, setScrollX] = useState(0);
 
   useEffect(() => {
@@ -26,7 +40,7 @@ export default function Home (){
                 <div className='border-solid relative overflow-hidden pt-[200px] xl:pt-[50px] border-black bor m-[0px] xl:w-[60%] w-[100%] flex  justify-center items-center  '  >
                     <div className='reveal pl-[20px] pr-[20px]' >
                         <h1 className='drop-shadow-[2px_2px_5px_black] xl:text-start text-center text-6xl font-black bg-gradient-to-r from-[#020024] via-[#00007c] to-[#00d4ff] text-transparent bg-clip-text font-oswald'style={{ fontFamily: "Inter, sans-serif",  transform: `translateX(-${scrollX}px)` }} >Hi, I'm Raafa</h1>
-                        <div className='xl:text-start text-center' style={{ transform: `translateX(-${scrollX}px)` }} >
+                        <div className=' xl:text-start text-center' style={{ transform: `translateX(-${scrollX}px)` }} >
                             <TypeAnimation className=' text-2xl xl:text-3xl font-medium' sequence={[
                                 "I am a Front-end Wev Developer",
                                 1000,

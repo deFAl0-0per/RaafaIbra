@@ -22,6 +22,19 @@ import '../index.css'
 import ScrollReveal from 'scrollreveal';
 
 export default function Porto() {
+    useEffect(() => {
+           const sr = ScrollReveal({
+                distance: '50px',
+                duration: 800,
+                easing: 'ease-in-out',
+                opacity: 0,
+                scale: 0.85,
+                interval: 200, // Interval antar elemen yang di-animasi
+            })
+            sr.reveal('.reveal')
+
+            return () => {sr.destroy()};
+            }, []);
     const swiperRef = useRef(null);
 
     return (
@@ -31,7 +44,7 @@ export default function Porto() {
                 <span className='font-black text-2xl xl:text-3xl text-white drop-shadow-[3px_3px_5px_black] ' >Let's see my projects !!</span>
             </div>
             <div className='block w-full justify-center items-center' >
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-start xl:items-center items-start overflow-hidden ' >  
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-start xl:items-center items-start overflow-hidden ' >  
                     <img src={potoProject1} alt="" className=' w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-start' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Videotron <br />(Non Responsive Web)</h1>
@@ -51,7 +64,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject2} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Catatan Barang <br />(Responsive Web)</h1>
@@ -74,7 +87,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject3} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> API Postman CRUD Fiber Go </h1>
@@ -94,7 +107,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject3_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> CRUD with PHP Native </h1>
@@ -114,7 +127,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject4} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Tic Tac Toe Game<br />(Responsive Web)</h1>
@@ -137,7 +150,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject4_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Flower Animation <br />(Responsive Web)</h1>
@@ -160,7 +173,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject5} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >UI/UX Design E-Koperasi  <br />(Non Responsive Web)</h1>
@@ -182,7 +195,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start xl:text-center text-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start xl:text-center text-start overflow-hidden ' >
                     <img src={potoProject6} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>
@@ -202,7 +215,7 @@ export default function Porto() {
                                             </div>
                                         </div>
                 </div>
-                <div className=' shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] xl:h-[400px] h-[500px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
+                <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] xl:h-[400px] h-[500px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
                     <img src={potoProject7} alt="" className='w-[500px] xl:w-[400px] h-[280px] xl:h-[280px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' />
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>

@@ -4,6 +4,19 @@ import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import ScrollReveal from 'scrollreveal';
 
 export default function Navbar () {
+    useEffect(() => {
+        const sr = ScrollReveal({
+             distance: '50px',
+             duration: 800,
+             easing: 'ease-in-out',
+             opacity: 0,
+             scale: 0.85,
+             interval: 200, // Interval antar elemen yang di-animasi
+         })
+         sr.reveal('.reveal')
+
+         return () => {sr.destroy()};
+         }, []);
     const [nav, setNav] = useState(false)
     const handleNav = () => {
         setNav(!nav)
@@ -35,7 +48,7 @@ export default function Navbar () {
 
             </div>
             <div className='bg-black w-full h-[80px] z-[999999999] fixed mx-aut  flex justify-center items-center' >
-                <h1 className="flex text-center animate-pulse text-5xl font-bold bg-gradient-to-r from-[#1900bd] via-[#0000ff] to-[#00d4ff] text-transparent bg-clip-text m-auto fixed " >Hello</h1>
+                <h1 className="reveal flex text-center animate-pulse text-5xl font-bold bg-gradient-to-r from-[#1900bd] via-[#0000ff] to-[#00d4ff] text-transparent bg-clip-text m-auto fixed " >Hello</h1>
             </div>
         </>
     )
