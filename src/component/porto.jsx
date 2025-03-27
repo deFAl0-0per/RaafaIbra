@@ -45,7 +45,7 @@ export default function Porto() {
             </div>
             <div className='block w-full justify-center items-center' >
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-start xl:items-center items-start overflow-hidden ' >
-                    <div style={{backgroundImage: `url(${potoProject1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>  
+                    <div style={{backgroundImage: `url(${potoProject1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>  
                     {/* <img src={potoProject1} alt="" className=' w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-start' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Videotron <br />(Non Responsive Web)</h1>
@@ -66,7 +66,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                <div style={{backgroundImage: `url(${potoProject2})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                <div style={{backgroundImage: `url(${potoProject2})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject2} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Catatan Barang <br />(Responsive Web)</h1>
@@ -90,7 +90,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                <div style={{backgroundImage: `url(${potoProject3})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                <div style={{backgroundImage: `url(${potoProject3})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject3} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> API Postman CRUD Fiber Go </h1>
@@ -111,7 +111,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                <div style={{backgroundImage: `url(${potoProject3_1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                <div style={{backgroundImage: `url(${potoProject3_1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject3_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col box-border justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='flex xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start'> CRUD with PHP Native </h1>
@@ -132,7 +132,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                <div style={{backgroundImage: `url(${potoProject4})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                <div style={{backgroundImage: `url(${potoProject4})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject4} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Tic Tac Toe Game<br />(Responsive Web)</h1>
@@ -156,7 +156,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                <div style={{backgroundImage: `url(${potoProject4_1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                <div style={{backgroundImage: `url(${potoProject4_1})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject4_1} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Website Flower Animation <br />(Responsive Web)</h1>
@@ -180,7 +180,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                    <div style={{backgroundImage: `url(${potoProject5})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                    <div style={{backgroundImage: `url(${potoProject5})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject5} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >UI/UX Design E-Koperasi  <br />(Non Responsive Web)</h1>
@@ -203,7 +203,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start xl:text-center text-start overflow-hidden ' >
-                    <div style={{backgroundImage: `url(${potoProject6})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                    <div style={{backgroundImage: `url(${potoProject6})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] ml-[0px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject6} alt="" className='w-[500px] xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Poster (Figma) <br />(Non Responsive Web)</h1>
@@ -224,7 +224,7 @@ export default function Porto() {
                                         </div>
                 </div>
                 <div className='reveal shadow-[5px_5px_15px] block xl:flex bg-white w-[90%] xl:h-[400px] h-[350px] rounded-2xl m-auto mb-[20px] xl:justify-between justify-normal xl:items-center items-start overflow-hidden ' >
-                    <div style={{backgroundImage: `url(${potoProject7})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] shadow-xl' ></div>
+                    <div style={{backgroundImage: `url(${potoProject7})`}} className='bg-cover bg-center w-full xl:w-[400px] h-[200px] xl:h-[250px] flex m-5px rounded-2xl xl:ml-[80px] ml-[20px] xl:mr-[20px] mr-[0px] shadow-xl' ></div>
                     {/* <img src={potoProject7} alt="" className='w-[500px] xl:w-[400px] h-[280px] xl:h-[280px] flex m-5px rounded-2xl xl:ml-[20px] shadow-xl ' /> */}
                     <div className='flex flex-col justify-center xl:items-start items-start xl:text-left text-center' >
                         <h1 className='xl:text-4xl text-xl ml-[20px] mt-[20px] xl:mt-[0px] xl:ml-[0px] font-black text-start xl:text-start' >Design Logo (Figma) <br />(Non Responsive Web)</h1>
